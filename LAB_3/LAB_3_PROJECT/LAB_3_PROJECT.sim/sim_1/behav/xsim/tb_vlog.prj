@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../SSD_DRIVER.v" \
+"../../../../../TOP_MODULE_PART3.v" \
+
+sv xil_defaultlib  \
+"../../../../../SV_TOP_MODULE_PART_4.sv" \
+"../../../../../TOP_MODULE_PART_5.sv" \
+
+verilog xil_defaultlib  \
+"../../../../LAB_3_PROJECT.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

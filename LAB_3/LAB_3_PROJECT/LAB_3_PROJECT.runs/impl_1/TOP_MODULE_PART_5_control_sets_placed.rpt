@@ -1,0 +1,109 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2.1 (win64) Build 3414424 Sun Dec 19 10:57:22 MST 2021
+| Date         : Sun Oct  9 14:08:15 2022
+| Host         : SHBZ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TOP_MODULE_PART_5_control_sets_placed.rpt
+| Design       : TOP_MODULE_PART_5
+| Device       : xc7z010
+----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    31 |
+|    Minimum number of control sets                        |    31 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   121 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    31 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |    15 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    13 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               6 |            5 |
+| No           | No                    | Yes                    |              24 |            9 |
+| No           | Yes                   | No                     |              33 |           10 |
+| Yes          | No                    | No                     |              20 |            5 |
+| Yes          | No                    | Yes                    |               8 |            3 |
+| Yes          | Yes                   | No                     |             292 |           91 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------+--------------------------------+---------------------------+------------------+----------------+--------------+
+| Clock Signal |          Enable Signal         |      Set/Reset Signal     | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------+--------------------------------+---------------------------+------------------+----------------+--------------+
+|  clk1_BUFG   |                                |                           |                2 |              2 |         1.00 |
+|  clk2_BUFG   |                                |                           |                3 |              4 |         1.33 |
+|  clk2_BUFG   | D1/D0/Col0                     |                           |                1 |              4 |         4.00 |
+|  clk2_BUFG   | D1/D0/DecodeOut[3]_i_1__0_n_0  | D1/D0/SR[0]               |                2 |              4 |         2.00 |
+|  clk2_BUFG   | D1/D0/E[0]                     | D1/D0/SR[0]               |                1 |              4 |         4.00 |
+|  clk2_BUFG   | D1/D0/key_sel_reg[0]           | D1/D0/SR[0]               |                1 |              4 |         4.00 |
+|  clk2_BUFG   | D1/count2[3]_i_2__0_n_0        | D1/D0/SR[0]               |                1 |              4 |         4.00 |
+|  clk2_BUFG   | D1/key_sel                     | D1/D0/SR[0]               |                3 |              4 |         1.33 |
+|  clk2_BUFG   | D1/curr_diff[3]_i_1_n_0        | D1/D0/SR[0]               |                3 |              4 |         1.33 |
+|  clk2_BUFG   | D1/target_number[3]_i_1__0_n_0 |                           |                1 |              4 |         4.00 |
+|  clk1_BUFG   | D0/D0/DecodeOut[3]_i_1_n_0     | D0/D0/rst1                |                1 |              4 |         4.00 |
+|  clk1_BUFG   | D0/D0/Col[3]_i_1__0_n_0        |                           |                1 |              4 |         4.00 |
+|  clk1_BUFG   | D0/D0/E[0]                     | D0/D0/rst1                |                2 |              4 |         2.00 |
+|  clk1_BUFG   | D0/D0/key_sel_reg[0]           | D0/D0/rst1                |                2 |              4 |         2.00 |
+|  clk1_BUFG   | D0/count3[3]_i_1_n_0           | D0/D0/rst1                |                1 |              4 |         4.00 |
+|  clk1_BUFG   | D0/count2[3]_i_2_n_0           | D0/D0/rst1                |                3 |              4 |         1.33 |
+|  clk1_BUFG   | D0/target_number[3]_i_1_n_0    |                           |                2 |              8 |         4.00 |
+|  clk2_BUFG   |                                | D1/D0/SR[0]               |                5 |             12 |         2.40 |
+|  clk2_BUFG   | D1/D2/count[0]_i_2__5_n_0      | D1/D2/count[0]_i_1__5_n_0 |                5 |             19 |         3.80 |
+|  clk2_BUFG   | D1/D3/count[0]_i_2__4_n_0      | D1/D3/count[0]_i_1__6_n_0 |                5 |             19 |         3.80 |
+|  clk2_BUFG   | D1/D4/count[0]_i_2__3_n_0      | D1/D4/count[0]_i_1__7_n_0 |                5 |             19 |         3.80 |
+|  clk2_BUFG   | D1/D1/count[0]_i_2__6_n_0      | D1/D1/count[0]_i_1__4_n_0 |                5 |             19 |         3.80 |
+|  clk1_BUFG   | D0/D3/count[0]_i_2__0_n_0      | D0/D3/count[0]_i_1__1_n_0 |                5 |             19 |         3.80 |
+|  clk1_BUFG   | D0/D4/count[0]_i_2_n_0         | D0/D4/count[0]_i_1__2_n_0 |                5 |             19 |         3.80 |
+|  clk1_BUFG   | D0/D1/count[0]_i_2__2_n_0      | D0/D1/count[0]_i_1_n_0    |                5 |             19 |         3.80 |
+|  clk1_BUFG   | D0/D2/count[0]_i_2__1_n_0      | D0/D2/count[0]_i_1__0_n_0 |                5 |             19 |         3.80 |
+|  clk2_BUFG   | D1/D0/sclk[0]_i_2__0_n_0       | D1/D0/sclk0               |                5 |             20 |         4.00 |
+|  clk1_BUFG   | D0/D0/sclk[0]_i_2_n_0          | D0/D0/sclk[0]_i_1__0_n_0  |                5 |             20 |         4.00 |
+|  clk2_BUFG   | D1/count_enable                | D1/D0/SR[0]               |               12 |             32 |         2.67 |
+|  clk1_BUFG   | D0/count_enable_0              | D0/D0/rst1                |               12 |             32 |         2.67 |
+|  clk1_BUFG   |                                | D0/D0/rst1                |               14 |             45 |         3.21 |
++--------------+--------------------------------+---------------------------+------------------+----------------+--------------+
+
+

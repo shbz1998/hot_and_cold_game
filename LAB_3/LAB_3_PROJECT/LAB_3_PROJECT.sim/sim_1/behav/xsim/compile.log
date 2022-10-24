@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/malik/Documents/ECE_524/LAB_3/SSD_DRIVER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SSD_DRIVER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_MODULE_PART3
+WARNING: [VRFC 10-3248] data object 'curr_diff' is already declared [C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART3.v:46]
+WARNING: [VRFC 10-3703] second declaration of 'curr_diff' ignored [C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART3.v:46]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/malik/Documents/ECE_524/LAB_3/SV_TOP_MODULE_PART_4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SV_TOP_MODULE_PART_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART_5.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_MODULE_PART_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/malik/Documents/ECE_524/LAB_3/LAB_3_PROJECT/LAB_3_PROJECT.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/malik/Documents/ECE_524/LAB_3/DECODER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Decoder'

@@ -1,0 +1,15 @@
+0.7
+2020.2
+Dec 19 2021
+11:27:32
+C:/Users/malik/Documents/ECE_524/LAB_3/DECODER.vhd,1665224366,vhdl,,,,decoder,,,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/DeBounce.vhd,1664914394,vhdl,,,,debounce,,,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/LAB_3_PROJECT/LAB_3_PROJECT.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/LAB_3_PROJECT/LAB_3_PROJECT.srcs/sim_1/new/tb.v,1665348816,verilog,,,,tb,,uvm,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/SSD_DRIVER.v,1664461085,verilog,,C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART3.v,,SSD_DRIVER,,uvm,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/SV_TOP_MODULE_PART_4.sv,1665307027,systemVerilog,,C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART_5.sv,,SV_TOP_MODULE_PART_4,,uvm,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/TEST.v,1665213043,verilog,,,,TEST,,,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE.v,1665114183,verilog,,C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_TB.v,,TOP_MODULE,,,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART3.v,1665307062,verilog,,,,TOP_MODULE_PART3,,uvm,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_PART_5.sv,1665307391,systemVerilog,,,,TOP_MODULE_PART_5,,uvm,,,,,,
+C:/Users/malik/Documents/ECE_524/LAB_3/TOP_MODULE_TB.v,1664147598,verilog,,,,TOP_MODULE_TB,,,,,,,,

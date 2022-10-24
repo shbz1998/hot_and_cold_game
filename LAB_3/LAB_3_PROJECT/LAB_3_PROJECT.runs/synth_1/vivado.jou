@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2.1 (64-bit)
+# SW Build 3414424 on Sun Dec 19 10:57:22 MST 2021
+# IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
+# Start of session at: Sun Oct  9 14:06:53 2022
+# Process ID: 28980
+# Current directory: C:/Users/malik/Documents/ECE_524/LAB_3/LAB_3_PROJECT/LAB_3_PROJECT.runs/synth_1
+# Command line: vivado.exe -log TOP_MODULE_PART_5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_MODULE_PART_5.tcl
+# Log file: C:/Users/malik/Documents/ECE_524/LAB_3/LAB_3_PROJECT/LAB_3_PROJECT.runs/synth_1/TOP_MODULE_PART_5.vds
+# Journal file: C:/Users/malik/Documents/ECE_524/LAB_3/LAB_3_PROJECT/LAB_3_PROJECT.runs/synth_1\vivado.jou
+# Running On: SHBZ, OS: Windows, CPU Frequency: 3096 MHz, CPU Physical cores: 8, Host memory: 34110 MB
+#-----------------------------------------------------------
+source TOP_MODULE_PART_5.tcl -notrace
