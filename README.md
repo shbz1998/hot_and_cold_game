@@ -12,3 +12,5 @@ RED RGB LED informs the user that they are getting closer to the target number
 BLUE RGB LED informs the user that they are getting farther from the target number
 GREEN RGB LED informs the user that the guess is correct
 
+Note: In the actual game the counter should be fast. For testing purposes, the counter frequency was set low. It can be changed in the code.
+
