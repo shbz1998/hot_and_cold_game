@@ -1,6 +1,8 @@
 # HOT AND COLD GAME ON FPGA
 ## SHAHBAZ MALIK
 
+VIDEO DEMO: https://www.youtube.com/watch?v=n7kE85FlgYY
+
 Two modes: Single digit mode and double digit mode.
 User can choose each mode by just toggling the on-board switch.
 
@@ -9,3 +11,4 @@ A counter counts from 0 to 99. When the user presses push button 1, the counter 
 RED RGB LED informs the user that they are getting closer to the target number
 BLUE RGB LED informs the user that they are getting farther from the target number
 GREEN RGB LED informs the user that the guess is correct
+
