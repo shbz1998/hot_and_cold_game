@@ -1,4 +1,4 @@
-# HOT AND COLD GAME ON FPGA
+# NUMBER GUESSING GAME ON FPGA
 ## SHAHBAZ MALIK
 
 VIDEO DEMO: https://www.youtube.com/watch?v=n7kE85FlgYY
