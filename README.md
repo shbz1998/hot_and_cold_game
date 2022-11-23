@@ -1,7 +1,7 @@
 # NUMBER GUESSING GAME ON FPGA
 ## SHAHBAZ MALIK
 
-VIDEO DEMO: https://www.youtube.com/watch?v=n7kE85FlgYY
+VIDEO DEMO: https://www.youtube.com/watch?v=PtXUlY8Xdfo
 
 Two modes: Single digit mode and double digit mode.
 User can choose each mode by just toggling the on-board switch.
